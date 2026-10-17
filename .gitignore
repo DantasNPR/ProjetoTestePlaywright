@@ -1,0 +1,44 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build .NET
+bin/
+obj/
+
+# Test results
+TestResults/
+*.trx
+
+# Code coverage
+coverage/
+coverage.*
+*.coverage
+
+# Playwright
+playwright-report/
+blob-report/
+test-results/
+
+# Logs
+*.log
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reqnroll generated files
+*.feature.cs
