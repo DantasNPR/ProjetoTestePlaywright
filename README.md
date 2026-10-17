@@ -48,45 +48,45 @@ Funcionalidade: Registro de defeitos
 
 
 
-&#x20; @TelaRegistroDefeito
+ @TelaRegistroDefeito
 
-&#x20; Cenário: Registrar defeito no módulo Login com severidade baixa e prioridade P1 em produção
+ Cenário: Registrar defeito no módulo Login com severidade baixa e prioridade P1 em produção
 
-&#x20;   Dado que o usuário está na aba "Playground QA" com o formulário de registro de defeitos disponível
+   Dado que o usuário está na aba "Playground QA" com o formulário de registro de defeitos disponível
 
-&#x20;   Quando preenche o campo Título do defeito com "Defeito de exemplo"
+   Quando preenche o campo Título do defeito com "Defeito de exemplo"
 
-&#x20;   E seleciona o módulo afetado "Login"
+   E seleciona o módulo afetado "Login"
 
-&#x20;   E seleciona a severidade "Baixa"
+   E seleciona a severidade "Baixa"
 
-&#x20;   E seleciona o ambiente "Produção"
+   E seleciona o ambiente "Produção"
 
-&#x20;   E preenche o campo E-mail de quem reportou com "voce@empresa.com"
+   E preenche o campo E-mail de quem reportou com "voce@empresa.com"
 
-&#x20;   E informa a data de deteccao "01/01/2023"
+   E informa a data de deteccao "01/01/2023"
 
-&#x20;   E informa "1" no campo Ocorrencias
+   E informa "1" no campo Ocorrencias
 
-&#x20;   E seleciona a prioridade "P1"
+   E seleciona a prioridade "P1"
 
-&#x20;   E preenche o campo Passos para reproduzir com:
+   E preenche o campo Passos para reproduzir com:
 
-&#x20;     """
+     """
 
-&#x20;     1. Acessar a tela X
+     1. Acessar a tela X
 
-&#x20;     2. Preencher o campo Y
+     2. Preencher o campo Y
 
-&#x20;     3. Observar o resultado Z
+     3. Observar o resultado Z
 
-&#x20;     """
+     """
 
-&#x20;   E marca a confirmacao de que o relato nao contém informacoes sensíveis
+   E marca a confirmacao de que o relato nao contém informacoes sensíveis
 
-&#x20;   E clica no botao "Registrar defeito"
+   E clica no botao "Registrar defeito"
 
-&#x20;   Então deve visualizar a mensagem 'Defeito registrado com sucesso. Ele já aparece na aba "Tabela de defeitos".'
+   Então deve visualizar a mensagem 'Defeito registrado com sucesso. Ele já aparece na aba "Tabela de defeitos".'
 
 ```
 
@@ -144,9 +144,9 @@ ProjetoTestePlaywright
 
 └── Steps
 
-&#x20;   ├── AComunidadeStepDefinition.cs
+   ├── AComunidadeStepDefinition.cs
 
-&#x20;   └── PlaygroundQaStepDefinition.cs
+   └── PlaygroundQaStepDefinition.cs
 
 ```
 
@@ -196,27 +196,27 @@ Fluxo principal:
 
 Feature
 
-&#x20;  ↓
+  ↓
 
 Step Definition
 
-&#x20;  ↓
+  ↓
 
 Actions
 
-&#x20;  ↓
+  ↓
 
 Elements Map
 
-&#x20;  ↓
+  ↓
 
 IPage
 
-&#x20;  ↓
+  ↓
 
 Playwright
 
-&#x20;  ↓
+  ↓
 
 Browser
 
