@@ -1,8 +1,8 @@
-\# Projeto de Automação de Testes com Playwright
+# Projeto de Automação de Testes com Playwright
 
 
 
-Projeto de automação de testes web desenvolvido com \*\*C#\*\*, \*\*Playwright\*\*, \*\*xUnit\*\*, \*\*Reqnroll\*\* e \*\*BDD (Gherkin)\*\*.
+Projeto de automação de testes web desenvolvido com **C#**, **Playwright**, **xUnit**, **Reqnroll** e **BDD (Gherkin)**.
 
 
 
@@ -14,33 +14,33 @@ Este projeto também representa uma evolução do cenário anteriormente desenvo
 
 
 
-\## Tecnologias utilizadas
+## Tecnologias utilizadas
 
 
 
-\- C#
+- C#
 
-\- .NET 10
+- .NET 10
 
-\- Microsoft Playwright
+- Microsoft Playwright
 
-\- xUnit
+- xUnit
 
-\- Reqnroll
+- Reqnroll
 
-\- BDD / Gherkin
+- BDD / Gherkin
 
-\- Page Object Model
+- Page Object Model
 
 
 
-\## Cenário automatizado
+## Cenário automatizado
 
 
 
 ```gherkin
 
-\# language: pt
+# language: pt
 
 
 
@@ -90,7 +90,7 @@ Funcionalidade: Registro de defeitos
 
 ```
 
-\## Estrutura do projeto
+## Estrutura do projeto
 
 
 
@@ -152,7 +152,7 @@ ProjetoTestePlaywright
 
 
 
-\## Arquitetura
+## Arquitetura
 
 
 
@@ -160,31 +160,31 @@ O projeto foi estruturado separando as responsabilidades da automação:
 
 
 
-\*\*Features\*\* → cenários escritos em Gherkin.
+**Features** → cenários escritos em Gherkin.
 
 
 
-\*\*Steps\*\* → ligação entre os cenários BDD e as ações da automação.
+**Steps** → ligação entre os cenários BDD e as ações da automação.
 
 
 
-\*\*PageObjects\*\* → elementos e ações realizadas nas páginas.
+**PageObjects** → elementos e ações realizadas nas páginas.
 
 
 
-\*\*Hooks\*\* → preparação e finalização de cada cenário.
+**Hooks** → preparação e finalização de cada cenário.
 
 
 
-\*\*Fixtures\*\* → gerenciamento do ciclo de vida do Playwright.
+**Fixtures** → gerenciamento do ciclo de vida do Playwright.
 
 
 
-\*\*Drivers\*\* → inicialização e configuração do navegador.
+**Drivers** → inicialização e configuração do navegador.
 
 
 
-\*\*Config\*\* → configurações de execução, como URL, navegador, timeout e modo Headless.
+**Config** → configurações de execução, como URL, navegador, timeout e modo Headless.
 
 
 
@@ -224,17 +224,17 @@ Browser
 
 
 
-\## Executando o projeto
+## Executando o projeto
 
 
 
-\### Pré-requisitos
+### Pré-requisitos
 
 
 
-\- .NET SDK 10
+- .NET SDK 10
 
-\- Git
+- Git
 
 
 
@@ -292,7 +292,7 @@ Instale os navegadores do Playwright no Windows PowerShell:
 
 ```powershell
 
-.\\ProjetoTestePlaywright\\bin\\Debug\\net10.0\\playwright.ps1 install
+.ProjetoTestePlaywrightbinDebugnet10.0playwright.ps1 install
 
 ```
 
@@ -310,7 +310,7 @@ dotnet test
 
 
 
-\## Execução Headless
+## Execução Headless
 
 
 
@@ -350,11 +350,11 @@ Para executar sem interface gráfica:
 
 
 
-\## Autor
+## Autor
 
 
 
-\*\*Angelo Daniel Dantas\*\*
+**Angelo Daniel Dantas**
 
 
 
