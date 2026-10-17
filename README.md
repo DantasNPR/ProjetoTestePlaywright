@@ -38,10 +38,6 @@ Este projeto também representa uma evolução do cenário anteriormente desenvo
 
 
 
-O cenário realiza o registro de um defeito no módulo de Login, preenchendo as informações necessárias e validando a mensagem de sucesso apresentada pela aplicação.
-
-
-
 ```gherkin
 
 \# language: pt
@@ -93,8 +89,6 @@ Funcionalidade: Registro de defeitos
 &#x20;   Então deve visualizar a mensagem 'Defeito registrado com sucesso. Ele já aparece na aba "Tabela de defeitos".'
 
 ```
-
-
 
 \## Estrutura do projeto
 
